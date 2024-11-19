@@ -1,0 +1,57 @@
+header {
+    background: linear-gradient(90deg, #001B2F 0%, #005695 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logoHeader {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 25%;
+        margin-left: 1%;
+        p {
+            font-size: 25px;
+            color: white;
+        }
+    }
+    nav {
+        width: 30%;
+        display: flex;
+        justify-content: space-between;
+        .link {
+            text-decoration: none;
+            color: white;
+            transition: all 300ms ease;
+            &:hover {
+                color: #1b7fb9;
+                cursor: pointer;
+            }
+        }
+    }
+    .busca {
+        border: solid #FFF;
+        border-radius: 20px;
+        margin-right: 1%;
+        width: 29%;
+        height: 6vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        input {
+            background-color: transparent;
+            border: none;
+            width: 60%;
+            height: 5vh;
+            &::placeholder {
+                color: #FFF;
+                font-size: 20px;
+            }
+        }
+        button {
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+        }
+    }
+}
+
