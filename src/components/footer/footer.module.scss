@@ -1,15 +1,37 @@
 footer {
+    color: #FFFFFFDB;
+    font-family: Poppins;
+    display: flex;
+    flex-direction: column;
     .topFooter {
-        background: blue;
+        background: #005695;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 0 1% 0 1%;
+        height: 110px;
+        padding: 0 5% 0 5%;
+        p {
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 19.36px;
+            text-align: left;
+        }
+        div {
+            width: 190px;
+            display: flex;
+            justify-content: space-between;
+        }
+
     }
     .bottomFooter {
-        background: red;
+        background: #232020;
+        height: 68px;
         p {
+            font-size: 15px;
+            font-weight: 700;
+            line-height: 18.15px;
             text-align: center;
+            margin-top: 25px;
         }
     }
 }
