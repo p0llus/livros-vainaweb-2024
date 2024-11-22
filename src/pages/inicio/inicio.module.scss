@@ -1,0 +1,19 @@
+main {
+    section {
+        border: solid red;
+        height: 75vh;
+        width: 100%;
+        background-image: url('../../assets/');
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        
+        h2 {
+            color: #FFF;
+            font-size: 32px;
+            width: 20%;
+            margin-left: 6%;
+        }
+    }
+}

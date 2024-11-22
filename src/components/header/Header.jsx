@@ -13,10 +13,10 @@ export default function Header () {
             <header>
                 <section className={s.logoHeader}>
                     <img src={livrosVnW} alt='Logo da Livros Vai na Web'/>
-                    <p>Livros Vai na Web</p>
+                    <h1>Livros Vai na Web</h1>
                 </section>
                 <nav>
-                    <Link className={s.link} to='/inicio'>Início</Link>
+                    <Link className={s.link} to='/'>Início</Link>
                     <Link className={s.link} to='/doados'>Livros Doados</Link>
                     <Link className={s.link} to='/doar'>Quero Doar</Link>
                 </nav>
@@ -28,7 +28,7 @@ export default function Header () {
                 </section>
             </header>
             <Routes>
-                <Route path='/inicio' element={<Inicio />}/>
+                <Route path='/' element={<Inicio />}/>
                 <Route path='/doados' element={<Doados />}/>
                 <Route path='/doar' element={<Doar />}/>
             </Routes>
