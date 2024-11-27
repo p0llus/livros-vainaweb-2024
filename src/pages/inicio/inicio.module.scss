@@ -1,5 +1,5 @@
 main {
-    section {
+    #topSection {
         border: solid red;
         height: 75vh;
         width: 100%;
@@ -8,12 +8,20 @@ main {
         background-size: cover;
         display: flex;
         align-items: center;
-        
         h2 {
             color: #FFF;
             font-size: 32px;
             width: 20%;
             margin-left: 6%;
+        }
+    }
+    #bottomSection {
+        div {
+            figure {
+                figcaption {
+                    color: black;
+                }
+            }
         }
     }
 }
