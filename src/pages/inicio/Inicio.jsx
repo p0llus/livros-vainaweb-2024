@@ -7,7 +7,7 @@ export default function Inicio () {
                 <h2>
                     VENHA FAZER PARTE DA MAIOR REDE DE DOAÇÃO
                 </h2>
-                <img src={} alt=""/>
+                {/* <img src={} alt=""/> */}
             </section>
             <section id='bottomSection'>
                 <h2>
@@ -15,25 +15,25 @@ export default function Inicio () {
                 </h2>
                 <div>
                     <figure>
-                        <img src={} alt=""/>
+                        {/* <img src={} alt=""/> */}
                         <figcaption>
 
                         </figcaption>
                     </figure>
                     <figure>
-                        <img src={} alt=""/>
+                        {/* <img src={} alt=""/> */}
                         <figcaption>
 
                         </figcaption>
                     </figure>
                     <figure>
-                        <img src={} alt=""/>
+                        {/* <img src={} alt=""/> */}
                         <figcaption>
 
                         </figcaption>
                     </figure>
                     <figure>
-                        <img src={} alt=""/>
+                        {/* <img src={} alt=""/> */}
                         <figcaption>
 
                         </figcaption>

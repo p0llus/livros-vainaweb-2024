@@ -3,7 +3,7 @@ import s from '../header/header.module.scss'
 import Inicio from '../../pages/inicio/Inicio.jsx'
 import Doados from '../../pages/doados/Doados.jsx'
 import Doar from '../../pages/doar/Doar.jsx'
-import livrosVnW from '../../assets/logo-livrosVnW.png'
+import livrosVnW from '../../assets/livroLogo.png'
 import lupa from '../../assets/lupa.png'
 
 
