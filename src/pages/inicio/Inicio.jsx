@@ -3,13 +3,13 @@ import s from '../inicio/inicio.module.scss'
 export default function Inicio () {
     return (
         <main>
-            <section id='topSection'>
+            <section className={s.topSection}>
                 <h2>
                     VENHA FAZER PARTE DA MAIOR REDE DE DOAÇÃO
                 </h2>
                 {/* <img src={} alt=""/> */}
             </section>
-            <section id='bottomSection'>
+            <section className={s.bottomSection}>
                 <h2>
                     Por que devo doar?
                 </h2>

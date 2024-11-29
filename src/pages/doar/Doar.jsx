@@ -3,7 +3,7 @@ import livroForm from '../../assets/livroForm.png'
 
 export default function Doar () {
     return (
-        <section id='doar'>
+        <section className={s.doar}>
             <p>
                 Por favor, preencha o formulário com suas informações e as do Livro
             </p>

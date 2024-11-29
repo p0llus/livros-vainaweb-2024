@@ -1,5 +1,5 @@
 main {
-    #topSection {
+    .topSection {
         border: solid red;
         height: 75vh;
         width: 100%;
@@ -15,7 +15,7 @@ main {
             margin-left: 6%;
         }
     }
-    #bottomSection {
+    .bottomSection {
         div {
             figure {
                 figcaption {
