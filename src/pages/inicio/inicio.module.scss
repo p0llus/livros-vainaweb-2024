@@ -1,9 +1,8 @@
 main {
     .topSection {
-        border: solid red;
         height: 75vh;
         width: 100%;
-        background-image: url('../../assets/');
+        background-image: url('../../assets/sectionBackground.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         display: flex;
@@ -16,10 +15,35 @@ main {
         }
     }
     .bottomSection {
+        display: flex;
+        height: 75vh;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        h2 {
+            width: 90%;
+            font-size: 40px;
+            color: #005695;
+        }
         div {
+            display: flex;
+            justify-content: space-evenly;
+            height: 35vh;
             figure {
+                background-color: #0157944D;
+                width: 20%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-evenly;
+                border-radius: 10px;
+                img {
+                    max-width: 100px;
+                }
                 figcaption {
-                    color: black;
+                    font-size: 22px;
+                    text-align: center;
+                    width: 80%;
                 }
             }
         }
